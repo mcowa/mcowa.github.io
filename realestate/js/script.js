@@ -555,6 +555,25 @@ jQuery(function ($) {
     //     console.log(index);
     // });
 
+    $("#owl-client").owlCarousel({
+        items: 1,
+        margin:10,
+        loop: true,
+        dots: false,
+        nav: true,
+        navContainer: "#client-nav",
+        responsive: {
+            991: {
+                items: 2,
+            },
+            600: {
+                items: 1,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
 
 // Team Slider
 
