@@ -579,21 +579,20 @@ jQuery(function ($) {
 
     $("#team-slider").owlCarousel({
         items: 3,
-        margin: 0,
-        nav:true,
-        dots:true,
+        nav:false,
+        dots:false,
         responsive: {
             992: {
                 items: 3,
             },
             991: {
-                items: 2,
+                items: 3,
             },
             767: {
-                items: 1,
+                items: 3,
             },
             320: {
-                items: 1,
+                items: 3,
             },
         }
     });
