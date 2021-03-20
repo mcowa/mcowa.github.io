@@ -81,6 +81,12 @@ p{
 
 .bg-grey{
     color: #9da0b2;
+    text-indent: -30px;
+    padding-left: 30px !important;
+}
+
+.about-p{
+    padding-left: 30px;
 }
 
 .green{
